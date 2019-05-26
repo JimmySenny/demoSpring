@@ -2,10 +2,17 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <!--bean id="HelloImpl" class="hello.HelloImpl">
+    <bean id="HelloImpl" class="hello.HelloWorldImpl">
+        <property name="word" value="Spring!!!"></property>
+    </bean>
+    <!--bean  class="hello.HelloImpl">
         <property name="word" value="Spring!!!"></property>
     </bean-->
-    <bean  class="hello.HelloImpl">
-        <property name="word" value="Spring!!!"></property>
+    <!--使用默认构造参数-->
+    <bean name="bean1" class="hello.HelloWorldImpl2"/>
+    <!--使用有参数构造参数-->
+    <bean name="bean2" class="hello.HelloWorldImpl2">
+        <!-- 指定构造器参数 -->
+        <constructor-arg index="0" value="Hello Spring!"/>
     </bean>
 </beans>

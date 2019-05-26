@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--实例化Bean 1:使用构造器-->
+    <!--使用默认构造参数-->
+    <bean name="bean1" class="demo2IoC.HelloImpl2"/>
+    <!--使用有参数构造参数-->
+    <bean name="bean2" class="demo2IoC.HelloImpl2">
+        <!-- 指定构造器参数 -->
+        <constructor-arg index="0" value="Spring! instantiatingBean by Constructor"/>
+    </bean>
+    <!--实例化Bean 2:使用静态工厂-->
+    <bean id="bean3" class="demo2IoC.HelloApiStaticFactory"
+          factory-method="newInstance">
+        <constructor-arg index="0" value="Spring! instantiatingBean by StaticFactory"/>
+    </bean>
+    <!--实例化Bean 3:使用实例工厂方法-->
+    <!--1)、定义实例工厂Bean -->
+    <bean id="beanInstanceFactory"
+          class="demo2IoC.HelloApiInstanceFactory"/>
+    <!--2)、使用实例工厂Bean创建Bean -->
+    <bean id="bean4"
+          factory-bean="beanInstanceFactory"
+          factory-method="newInstance">
+        <constructor-arg index="0" value="Spring! instantiatingBean by InstanceFactory"></constructor-arg>
+    </bean>
+
+</beans>

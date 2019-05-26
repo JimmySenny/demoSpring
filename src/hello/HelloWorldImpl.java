@@ -1,12 +1,12 @@
 package hello;
 
-public class HelloImpl implements HelloApi{
+public class HelloWorldImpl implements HelloWorldApi {
     private String word;
-    public HelloImpl(){
+    public HelloWorldImpl(){
         System.out.println("HelloImp class constructor0");
     }
 
-    public HelloImpl(String word) {
+    public HelloWorldImpl(String word) {
         System.out.println("HelloImp class constructor with arg");
         this.word = word;
     }
