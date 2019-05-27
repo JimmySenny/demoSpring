@@ -2,22 +2,20 @@ package demo3DI;
 
 import demo2IoC.hello.HelloApi;
 
-/**
- * 构造器注入的测试类
- */
-public class HelloImpl3 implements HelloApi {
+public class HelloImpl4 implements HelloApi {
     private String message;
     private int index;
 
-    //@java.beans.ConstructorProperties({"message", "index"})
-    public HelloImpl3(String message, int index) {
+    public void setMessage( String message ) {
         this.message = message;
-        this.index = index;
-        System.out.println("constructor:"+this.index);
+        System.out.println("setMessage" );
     }
-
+    public void setIndex( int index ) {
+        this.index = index;
+        System.out.println("setIndex" );
+    }
     @Override
-    public void sayHello() {
+    public void sayHello( ) {
         System.out.println("this.message:" + message);
         System.out.println("this.index:"+index);
     }

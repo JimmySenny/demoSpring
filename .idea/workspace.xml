@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133eefe0-06fc-4320-a502-85aaad754813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoSpring3/demoSpring3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/demoSpring3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,33 +19,66 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="201">
+              <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -55,8 +89,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -92,8 +126,18 @@
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/classpath.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingContainerTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/staticFactoryDependencyInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectByStaticFactory.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByInstanceFactory.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectByInstanceFactory.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByStaticFactory.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanBoolean.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" />
       </list>
     </option>
   </component>
@@ -114,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +182,13 @@
               <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
               <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,30 +197,11 @@
               <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +213,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/git-courseCode/spring3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -210,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyInjectTest.testConstructorDependencyInjectTest">
+  <component name="RunManager" selected="JUnit.DependencyInjectTest.testBooleanInject">
     <configuration name="DependencyInjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
@@ -222,6 +256,22 @@
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectTest.testBooleanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoSpring3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo3DI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo3DI" />
+      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
+      <option name="METHOD_NAME" value="testBooleanInject" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,49 +292,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstantiatingBeanTest.testInstantiatingBeanByConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo2IoC.*" />
+          <option name="PATTERN" value="demo3DI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo2IoC" />
-      <option name="MAIN_CLASS_NAME" value="demo2IoC.InstantiatingBeanTest" />
-      <option name="METHOD_NAME" value="testInstantiatingBeanByConstructor" />
+      <option name="PACKAGE_NAME" value="demo3DI" />
+      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
+      <option name="METHOD_NAME" value="testInstanceFactoryDependencyInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstantiatingBeanTest.testInstantiatingBeanByStaticFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testSetterDependencyInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo2IoC.*" />
+          <option name="PATTERN" value="demo3DI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo2IoC" />
-      <option name="MAIN_CLASS_NAME" value="demo2IoC.InstantiatingBeanTest" />
-      <option name="METHOD_NAME" value="testInstantiatingBeanByStaticFactory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstantiatingContainerTest.testXmlBeanFactoryBaseOnClassPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demoSpring3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo2IoC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo2IoC" />
-      <option name="MAIN_CLASS_NAME" value="demo2IoC.InstantiatingContainerTest" />
-      <option name="METHOD_NAME" value="testXmlBeanFactoryBaseOnClassPath" />
+      <option name="PACKAGE_NAME" value="demo3DI" />
+      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
+      <option name="METHOD_NAME" value="testSetterDependencyInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DependencyInjectTest.testConstructorDependencyInjectTest" />
+        <item itemvalue="JUnit.DependencyInjectTest.testBooleanInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testSetterDependencyInject" />
         <item itemvalue="JUnit.DependencyInjectTest" />
-        <item itemvalue="JUnit.InstantiatingContainerTest.testXmlBeanFactoryBaseOnClassPath" />
-        <item itemvalue="JUnit.InstantiatingBeanTest.testInstantiatingBeanByConstructor" />
-        <item itemvalue="JUnit.InstantiatingBeanTest.testInstantiatingBeanByStaticFactory" />
+        <item itemvalue="JUnit.DependencyInjectTest.testConstructorDependencyInjectTest" />
+        <item itemvalue="JUnit.DependencyInjectTest.testInstanceFactoryDependencyInject" />
       </list>
     </recent_temporary>
   </component>
@@ -312,46 +346,47 @@
       <updated>1558855915988</updated>
       <workItem from="1558855924327" duration="16799000" />
       <workItem from="1558886758404" duration="2424000" />
+      <workItem from="1558928548519" duration="8102000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InstantiatingContainerTest_testInstantiatingBeanByInstanceFactory - 2019.05.26 at 20h 05m 39s.xml">
-      <configuration name="InstantiatingContainerTest.testInstantiatingBeanByInstanceFactory" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 07m 11s.xml">
+      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstantiatingContainerTest_testInstantiatingBeanByInstanceFactory - 2019.05.26 at 20h 05m 58s.xml">
-      <configuration name="InstantiatingContainerTest.testInstantiatingBeanByInstanceFactory" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 17m 16s.xml">
+      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstantiatingContainerTest_testInstantiatingBeanByInstanceFactory - 2019.05.26 at 20h 12m 03s.xml">
-      <configuration name="InstantiatingContainerTest.testInstantiatingBeanByInstanceFactory" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 18m 56s.xml">
+      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InstantiatingContainerTest_testInstantiatingBeanByStaticFactory - 2019.05.26 at 20h 12m 19s.xml">
-      <configuration name="InstantiatingContainerTest.testInstantiatingBeanByStaticFactory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InstantiatingContainerTest_testInstantiatingBeanByConstructor - 2019.05.26 at 20h 12m 31s.xml">
-      <configuration name="InstantiatingContainerTest.testInstantiatingBeanByConstructor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InstantiatingContainerTest_testXmlBeanFactoryBaseOnClassPath - 2019.05.26 at 20h 25m 06s.xml">
-      <configuration name="InstantiatingContainerTest.testXmlBeanFactoryBaseOnClassPath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 00h 28m 00s.xml">
+    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 30m 10s.xml">
       <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest - 2019.05.27 at 00h 28m 34s.xml">
+    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 31m 45s.xml">
+      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 32m 39s.xml">
+      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyInjectTest - 2019.05.27 at 15h 34m 51s.xml">
       <configuration name="DependencyInjectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 00h 31m 42s.xml">
-      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest - 2019.05.27 at 15h 35m 27s.xml">
+      <configuration name="DependencyInjectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 00h 35m 27s.xml">
-      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testSetterDependencyInject - 2019.05.27 at 16h 03m 14s.xml">
+      <configuration name="DependencyInjectTest.testSetterDependencyInject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyInjectTest_testSetterDependencyInject - 2019.05.27 at 16h 03m 56s.xml">
+      <configuration name="DependencyInjectTest.testSetterDependencyInject" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19223000" />
+    <option name="totallyTimeSpent" value="27325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1381" height="895" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" weight="0.34037736" />
@@ -360,7 +395,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" visible="true" weight="0.21660377" />
+      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" visible="true" weight="0.15511727" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -369,13 +404,13 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.37381917" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.37339056" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287858" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32832617" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -625,27 +660,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectByStaticFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="396">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByInstanceFactory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectByInstanceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByStaticFactory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
