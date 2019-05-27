@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="mapBean"
+          class="demo3DI.bean.BeanMapTest">
+        <property name="map">
+            <map key-type="java.lang.String"
+                 value-type="java.lang.String"
+                 merge="default">
+                <entry key="1" value="strA" />
+                <entry key="2" value="strB" />
+                <entry key="3" value="strC" />
+                <entry key="4" value="strD" />
+                <entry key="5" value="strE" />
+                <entry key="6" value="strF" />
+                <entry key="7" value="strG" />
+            </map>
+        </property>
+    </bean>
+
+</beans>

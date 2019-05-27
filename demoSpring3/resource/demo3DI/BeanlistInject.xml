@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="listBean"
+          class="demo3DI.bean.BeanListTest">
+        <property name="values">
+            <list value-type="java.lang.String"
+                  merge="default">
+                <value>str1</value>
+                <value>str2</value>
+                <value>str3</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

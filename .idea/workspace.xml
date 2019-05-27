@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="133eefe0-06fc-4320-a502-85aaad754813" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/demoSpring3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/demoSpring3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,22 +18,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demoSpring" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+            <state relative-caret-position="545">
+              <caret line="155" selection-start-line="155" selection-end-line="163" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,43 +36,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefLocalInject.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -100,16 +97,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hello/HelloImpl.java" />
-        <option value="$PROJECT_DIR$/src/hello/HelloImpl2.java" />
-        <option value="$PROJECT_DIR$/res/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/hello/HelloTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HellpApi.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/hello.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HellopApi.java" />
         <option value="$PROJECT_DIR$/src/hello/HelloWorldApi.java" />
         <option value="$PROJECT_DIR$/src/hello/HelloWorldTest.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName1.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName2.xml" />
@@ -119,12 +112,10 @@
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName6.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/BeanNameTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/HelloImpl2.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/InstantiatingBean.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/HelloApiInstanceFactory.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/HelloApiStaticFactory.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingBeanTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/classpath.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingContainerTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/constructorDependencyInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/staticFactoryDependencyInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java" />
@@ -135,8 +126,27 @@
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByStaticFactory.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanBoolean.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTt.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingContainerTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/InstantiatingBean.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanIdRefTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanIdRefTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanListTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanlistInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanMapTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanMapInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/HelloApiDecorator.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanParent.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefLocalInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/local/BeanRefLocalInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" />
       </list>
     </option>
@@ -147,18 +157,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="42" />
-    <option name="y" value="6" />
-    <option name="width" value="1383" />
-    <option name="height" value="887" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1093" />
+    <option name="y" value="534" />
+    <option name="width" value="1098" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -196,12 +205,47 @@
               <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
               <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2IoC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,23 +257,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demoSpring3/resource/demo3DI" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20225695" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo2IoC" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI" />
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI\local" />
       <recent name="D:\git-demo\demoSpring\res" />
       <recent name="D:\git-demo\demoSpring\res\hello" />
       <recent name="D:\git-demo\demoSpring\src\resources\hello" />
-      <recent name="D:\git-demo\demoSpring\src\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI" />
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo2IoC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,8 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyInjectTest.testBooleanInject">
-    <configuration name="DependencyInjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DependencyInjectTest.testInnerBeanInject">
+    <configuration name="DependencyInjectTest.testBeanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -255,28 +301,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependencyInjectTest.testBooleanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demoSpring3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo3DI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo3DI" />
-      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testBooleanInject" />
+      <option name="METHOD_NAME" value="testBeanInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testIdRefInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -286,13 +317,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testConstructorDependencyInjectTest" />
+      <option name="METHOD_NAME" value="testIdRefInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testInnerBeanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -302,13 +333,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testInstanceFactoryDependencyInject" />
+      <option name="METHOD_NAME" value="testInnerBeanInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.testSetterDependencyInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testListInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -318,7 +349,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testSetterDependencyInject" />
+      <option name="METHOD_NAME" value="testListInject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectTest.testMapInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoSpring3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo3DI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo3DI" />
+      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
+      <option name="METHOD_NAME" value="testMapInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DependencyInjectTest.testBooleanInject" />
-        <item itemvalue="JUnit.DependencyInjectTest.testSetterDependencyInject" />
-        <item itemvalue="JUnit.DependencyInjectTest" />
-        <item itemvalue="JUnit.DependencyInjectTest.testConstructorDependencyInjectTest" />
-        <item itemvalue="JUnit.DependencyInjectTest.testInstanceFactoryDependencyInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testInnerBeanInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testBeanInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testMapInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testListInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testIdRefInject" />
       </list>
     </recent_temporary>
   </component>
@@ -351,51 +398,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 07m 11s.xml">
-      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 23m 17s.xml">
+      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 17m 16s.xml">
-      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 26m 03s.xml">
+      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testInstanceFactoryDependencyInject - 2019.05.27 at 15h 18m 56s.xml">
-      <configuration name="DependencyInjectTest.testInstanceFactoryDependencyInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 29m 59s.xml">
+      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 30m 10s.xml">
-      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 33m 39s.xml">
+      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 31m 45s.xml">
-      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 33m 56s.xml">
+      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testConstructorDependencyInjectTest - 2019.05.27 at 15h 32m 39s.xml">
-      <configuration name="DependencyInjectTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.27 at 23h 58m 00s.xml">
+      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest - 2019.05.27 at 15h 34m 51s.xml">
-      <configuration name="DependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.27 at 23h 58m 56s.xml">
+      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest - 2019.05.27 at 15h 35m 27s.xml">
-      <configuration name="DependencyInjectTest" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.28 at 00h 00m 14s.xml">
+      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testSetterDependencyInject - 2019.05.27 at 16h 03m 14s.xml">
-      <configuration name="DependencyInjectTest.testSetterDependencyInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.28 at 00h 01m 31s.xml">
+      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testSetterDependencyInject - 2019.05.27 at 16h 03m 56s.xml">
-      <configuration name="DependencyInjectTest.testSetterDependencyInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testInnerBeanInject - 2019.05.28 at 00h 44m 16s.xml">
+      <configuration name="DependencyInjectTest.testInnerBeanInject" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27325000" />
+    <option name="totallyTimeSpent" value="41526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1093" y="534" width="1098" height="1055" extended-state="0" />
     <layout>
       <window_info id="Learn" order="0" weight="0.34037736" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" visible="true" weight="0.15511727" />
+      <window_info id="Favorites" order="5" sideWeight="0.5017422" side_tool="true" weight="0.27543187" />
+      <window_info active="true" content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.27543187" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -404,7 +450,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.37339056" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3629301" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -427,23 +473,23 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" visible="true" weight="0.23677582" />
+      <window_info id="Favorites" order="5" sideWeight="0.5017422" side_tool="true" weight="0.27543187" />
+      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.27543187" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3287858" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.37789905" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3629301" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32832617" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -502,31 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello/HelloWorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,76 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName5.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName6.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/hello.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/BeanNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/InstantiatingBean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/HelloApiInstanceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -633,16 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/classpath.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -650,27 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectByStaticFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -688,26 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByStaticFactory.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -715,31 +627,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello/HelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/BeanNameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName6.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName5.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName4.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/HelloApiInstanceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/InstantiatingBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo2IoC/InstantiatingBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByConstructor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectByStaticFactory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectSetter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/HelloImpl3.java">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanIdRefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanlistInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanMapInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/HelloApiDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefLocalInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+        <state relative-caret-position="545">
+          <caret line="155" selection-start-line="155" selection-end-line="163" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

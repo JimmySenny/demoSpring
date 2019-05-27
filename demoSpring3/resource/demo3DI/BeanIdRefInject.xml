@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 校验 -->
+    <bean id="bean1"
+          class="java.lang.String">
+        <!-- 测试constructor-arg是否有用
+            <constructor-arg index="0" value="test"/>
+            -->
+    </bean>
+    <bean id="bean2"
+          class="java.lang.String">
+        <constructor-arg index="0" value="test"/>
+    </bean>
+    <!-- 配置 -->
+    <bean id="idrefBean1"
+          class="demo3DI.bean.BeanIdRefTest">
+        <property name="id"><idref bean="bean1"/></property>
+    </bean>
+    <!--
+    <bean id="idrefBean2"
+          class="demo3DI.bean.BeanIdRefTest">
+        <property name="id"><idref local ="bean2"/></property>
+    </bean>
+    -->
+</beans>
