@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="133eefe0-06fc-4320-a502-85aaad754813" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanBooleanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleA.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="155" selection-start-line="155" selection-end-line="163" selection-end-column="5" />
+            <state relative-caret-position="521">
+              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanCircleInjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,46 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml">
+        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanCircleInjectByConstructor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefLocalInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -86,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,16 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hello/HelloTest.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HellpApi.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/hello.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HellopApi.java" />
-        <option value="$PROJECT_DIR$/src/hello/HelloWorldApi.java" />
-        <option value="$PROJECT_DIR$/src/hello/HelloWorldTest.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloTest.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName1.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName2.xml" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName3.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName4.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName5.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo2IoC/BeanName6.xml" />
@@ -134,7 +97,6 @@
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/DependencyInjectBoolean.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanIdRefTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanIdRefTest.java" />
-        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanListTest.java" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanlistInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanMapTest.java" />
@@ -147,7 +109,18 @@
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/local/BeanRefLocalInject.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationC.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationB.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationA.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanNavigationInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInjectBypName.xml" />
         <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleA.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleB.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleC.java" />
+        <option value="$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanCircleInjectByConstructor.xml" />
+        <option value="$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanCircleInjectTest.java" />
       </list>
     </option>
   </component>
@@ -157,18 +130,16 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1093" />
-    <option name="y" value="534" />
-    <option name="width" value="1098" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="219" />
+    <option name="width" value="1154" />
+    <option name="height" value="887" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,21 +176,6 @@
               <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
               <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2IoC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2IoC" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="demoSpring3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo3DI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -266,16 +223,16 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI" />
+      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo2IoC" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI" />
       <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI\local" />
       <recent name="D:\git-demo\demoSpring\res" />
       <recent name="D:\git-demo\demoSpring\res\hello" />
       <recent name="D:\git-demo\demoSpring\src\resources\hello" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo3DI" />
-      <recent name="D:\git-demo\demoSpring\demoSpring3\resource\demo2IoC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,8 +247,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyInjectTest.testInnerBeanInject">
-    <configuration name="DependencyInjectTest.testBeanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BeanCircleInjectTest.testCircleByConstructor">
+    <configuration name="BeanCircleInjectTest.testCircleByConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -300,8 +257,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
-      <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testBeanInject" />
+      <option name="MAIN_CLASS_NAME" value="demo3DI.BeanCircleInjectTest" />
+      <option name="METHOD_NAME" value="testCircleByConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.testListInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testNavigationBeanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -349,13 +306,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testListInject" />
+      <option name="METHOD_NAME" value="testNavigationBeanInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.testMapInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectTest.testPNamespaceBeanInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoSpring3" />
       <extension name="coverage">
         <pattern>
@@ -365,7 +322,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo3DI" />
       <option name="MAIN_CLASS_NAME" value="demo3DI.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="testMapInject" />
+      <option name="METHOD_NAME" value="testPNamespaceBeanInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -373,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DependencyInjectTest.testInnerBeanInject" />
-        <item itemvalue="JUnit.DependencyInjectTest.testBeanInject" />
-        <item itemvalue="JUnit.DependencyInjectTest.testMapInject" />
-        <item itemvalue="JUnit.DependencyInjectTest.testListInject" />
+        <item itemvalue="JUnit.BeanCircleInjectTest.testCircleByConstructor" />
         <item itemvalue="JUnit.DependencyInjectTest.testIdRefInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testPNamespaceBeanInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testNavigationBeanInject" />
+        <item itemvalue="JUnit.DependencyInjectTest.testInnerBeanInject" />
       </list>
     </recent_temporary>
   </component>
@@ -394,46 +351,48 @@
       <workItem from="1558855924327" duration="16799000" />
       <workItem from="1558886758404" duration="2424000" />
       <workItem from="1558928548519" duration="8102000" />
+      <workItem from="1559054302544" duration="5502000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 23m 17s.xml">
-      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 24m 42s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 26m 03s.xml">
-      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 27m 50s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 29m 59s.xml">
-      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 28m 11s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 33m 39s.xml">
-      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 28m 32s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testMapInject - 2019.05.27 at 23h 33m 56s.xml">
-      <configuration name="DependencyInjectTest.testMapInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testPNamespaceBeanInject - 2019.05.28 at 23h 37m 58s.xml">
+      <configuration name="DependencyInjectTest.testPNamespaceBeanInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.27 at 23h 58m 00s.xml">
-      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 40m 55s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.27 at 23h 58m 56s.xml">
-      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
+    <history-entry file="DependencyInjectTest_testIdRefInject - 2019.05.28 at 23h 42m 08s.xml">
+      <configuration name="DependencyInjectTest.testIdRefInject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.28 at 00h 00m 14s.xml">
-      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
+    <history-entry file="BeanCircleInjectTest_testCircleByConstructor - 2019.05.29 at 00h 05m 53s.xml">
+      <configuration name="BeanCircleInjectTest.testCircleByConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testBeanInject - 2019.05.28 at 00h 01m 31s.xml">
-      <configuration name="DependencyInjectTest.testBeanInject" configurationId="JUnit" />
+    <history-entry file="BeanCircleInjectTest_testCircleByConstructor - 2019.05.29 at 00h 06m 47s.xml">
+      <configuration name="BeanCircleInjectTest.testCircleByConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyInjectTest_testInnerBeanInject - 2019.05.28 at 00h 44m 16s.xml">
-      <configuration name="DependencyInjectTest.testInnerBeanInject" configurationId="JUnit" />
+    <history-entry file="BeanCircleInjectTest_testCircleByConstructor - 2019.05.29 at 00h 07m 16s.xml">
+      <configuration name="BeanCircleInjectTest.testCircleByConstructor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41526000" />
+    <option name="totallyTimeSpent" value="47028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1093" y="534" width="1098" height="1055" extended-state="0" />
+    <frame x="-7" y="-7" width="1381" height="895" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" weight="0.34037736" />
       <window_info id="Image Layers" order="1" />
@@ -441,7 +400,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5017422" side_tool="true" weight="0.27543187" />
-      <window_info active="true" content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.27543187" />
+      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.2618868" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -450,7 +409,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3629301" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3616734" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -474,7 +433,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5017422" side_tool="true" weight="0.27543187" />
-      <window_info content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.27543187" />
+      <window_info active="true" content_ui="combo" x="94" y="128" width="323" height="756" id="Project" order="6" sideWeight="0.49825785" visible="true" weight="0.2618868" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -483,7 +442,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3629301" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3616734" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -505,49 +464,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class" />
-    <entry file="jar://D:/git-refer/freelibraries/Spring/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="792" selection-start-line="792" selection-end-line="792" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/IoCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello/HelloWorldApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello/HelloWorldImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello/HelloWorldImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo2IoC/hello/HelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -765,20 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanIdRefTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanlistInject.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -789,13 +691,6 @@
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanMapInject.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -834,6 +729,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanRefParentInject.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -848,31 +757,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanlistInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanMapInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanNavigationInject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/NavigationB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/CircleA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInject.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="459">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInject.xml">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanIdRefInjectBypName.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanInnerInject.xml">
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/bean/BeanIdRefTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/resource/demo3DI/BeanCircleInjectByConstructor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/DependencyInjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="155" selection-start-line="155" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="521">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoSpring3/src/demo3DI/BeanCircleInjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
