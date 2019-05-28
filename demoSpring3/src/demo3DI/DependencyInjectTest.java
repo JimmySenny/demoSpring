@@ -1,9 +1,7 @@
 package demo3DI;
 
 import demo2IoC.hello.HelloApi;
-import demo3DI.bean.BeanIdRefTest;
-import demo3DI.bean.BeanListTest;
-import demo3DI.bean.BeanMapTest;
+import demo3DI.bean.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -105,6 +103,10 @@ public class DependencyInjectTest {
         BeanIdRefTest bean2 = beanFactory.getBean("idrefBean2", BeanIdRefTest.class);
         System.out.println(bean2.getId());
          */
+        System.out.println("---------------");
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("demo3DI/BeanIdRefInject.xml");
+        System.out.println(context.getBean("idrefBean3",BeanIdRefTest.class).getId());
     }
 
     /**
@@ -163,4 +165,26 @@ public class DependencyInjectTest {
         bean.sayHello();
     }
 
+    /**
+     * 对象图导航
+     */
+    @Test
+    public void testNavigationBeanInject() {
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("demo3DI/BeanNavigationInject.xml");
+        NavigationA navigationA = context.getBean("a", NavigationA.class);
+        navigationA.getNavigationB().getNavigationC().sayNavigation();
+        navigationA.getNavigationB().getList().get(0).sayNavigation();
+        navigationA.getNavigationB().getMap().get("key").sayNavigation();
+        navigationA.getNavigationB().getArray()[0].sayNavigation();
+        ((NavigationC)navigationA.getNavigationB().getProperties().get("1")).sayNavigation();
+    }
+
+    @Test
+    public void testPNamespaceBeanInject() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("demo3DI/BeanIdRefInjectBypName.xml");
+        System.out.println("value:"+context.getBean("idrefBean1",BeanIdRefTest.class).getId());
+        System.out.println("test:"+context.getBean("idrefBean2", BeanIdRefTest.class).getId());
+
+    }
 }

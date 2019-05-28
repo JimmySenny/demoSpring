@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="c"
+          class="demo3DI.bean.NavigationC"/>
+    <bean id="b"
+          class="demo3DI.bean.NavigationB">
+        <property name="list">
+            <list value-type="java.lang.String">
+                <value>list1</value>
+                <value>list2</value>
+                <value>list3</value>
+            </list>
+        </property>
+        <property name="map">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="k1" value="map1"/>
+                <entry key="k2" value="map2"/>
+                <entry key="k3" value="map3"/>
+                <entry key="k4" value="map4"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props value-type="java.lang.String">
+                <prop key="p1">prop1</prop>
+                <prop key="p2">prop2</prop>
+                <prop key="p3">prop3</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="a"
+          class="demo3DI.bean.NavigationA">
+        <!-- 首先注入navigatiionB 确保它非空 -->
+        <property name="navigationB" ref="b"/>
+        <!-- 对象图导航注入 -->
+        <property name="navigationB.navigationC" ref="c"/>
+        <!-- 注入列表数据类型数据
+        <property name="navigationB.list[0]" ref="c"/>
+        -->
+        <!-- 注入map类型数据
+        <property name="navigationB.map[key]" ref="c"/>
+        -->
+        <!-- 注入properties类型数据
+        <property name="navigationB.properties[0]" ref="c"/>
+        -->
+        <!-- 注入properties类型数据
+        <property name="navigationB.properties[1]" ref="c"/>
+        -->
+        <!-- 注入数组类型数据 ，注意不要越界
+        <property name="navigationB.array[0]" ref="c"/>
+        -->
+    </bean>
+
+
+</beans>

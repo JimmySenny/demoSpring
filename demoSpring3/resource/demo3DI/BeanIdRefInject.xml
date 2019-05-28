@@ -5,9 +5,8 @@
     <!-- 校验 -->
     <bean id="bean1"
           class="java.lang.String">
-        <!-- 测试constructor-arg是否有用
+        <!-- 测试constructor-arg是否有用 BeanIdRefTest没有提供构造方法 -->
             <constructor-arg index="0" value="test"/>
-            -->
     </bean>
     <bean id="bean2"
           class="java.lang.String">
@@ -24,4 +23,9 @@
         <property name="id"><idref local ="bean2"/></property>
     </bean>
     -->
+    <bean id="idrefBean3"
+          class="demo3DI.bean.BeanIdRefTest">
+        <!-- 注意比较idref bean 与 ref bean的区别 -->
+        <property name="id" ref="bean1"></property>
+    </bean>
 </beans>
