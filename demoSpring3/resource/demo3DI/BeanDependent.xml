@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="BeanResource"
+          class="demo3DI.bean.BeanResource"
+          init-method="init" destroy-method="destroy">
+        <property name="file" value="D:/hello.java"/>
+    </bean>
+    <bean id="BeanDependent"
+          class="demo3DI.bean.BeanDependent"
+          init-method="init" destroy-method="destroy" depends-on="BeanResource">
+        <property name="beanresource" ref="BeanResource"/>
+    </bean>
+
+</beans>

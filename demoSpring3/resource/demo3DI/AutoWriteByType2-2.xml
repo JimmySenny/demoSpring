@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean class="demo2IoC.hello.HelloImpl"/> -->
+    <!-- 自动装配候选者中的首选Bean-->
+    <bean class="demo2IoC.hello.HelloImpl"
+          primary="true"/>
+    <bean id="bean1"
+          class="demo3DI.bean.HelloApiDecorator"
+          autowire="byType"/>
+    <bean id="listBean"
+          class="demo3DI.bean.BeanList"
+          autowire="byType"/>
+
+</beans>
